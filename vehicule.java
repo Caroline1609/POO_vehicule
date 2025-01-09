@@ -25,7 +25,39 @@ public class vehicule {
         
     }
 
-    
+    public String getNom(){
+        return nom;
+    }
+
+    public String getMarque(){
+        return marque;
+    }
+
+    public String getAnnee(){
+        return annee;
+    }
+
+    public int getNbDeRoue(){
+        return nbDeRoue;
+    }
+
+    public String getTypeCaburant(){
+        return typeCaburant;
+    }
+
+    public boolean Moteur(){
+        return moteur;
+    }
+
+    public boolean isContact(){
+        return contact;
+    }
+
+    public boolean isAccelerateur(){
+        return accelerateur;
+    }
+
+
 
 
 
